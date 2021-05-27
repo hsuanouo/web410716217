@@ -23,6 +23,7 @@ namespace Web410716217.Controllers
         }
         public ActionResult HW3()
         {
+            ViewBag.hsuan = "meow";
             return View();
         }
     }
